@@ -68,7 +68,7 @@ The most common traversals
 * **In order** : Left, Root, Right
 * **Post order** : Left, Right, Root
 
-![Tree](/trees/static/tree-img-1.png)
+![Tree](/trees/static/tree-img-0.png)
 
 * Pre order : 1, 2, 4, 8, 9, 5, 10, 11, 3, 6, 13, 7, 14
 * In order : 8, 4, 9, 2, 10, 5, 11, 1, 6, 13, 3, 14, 7
