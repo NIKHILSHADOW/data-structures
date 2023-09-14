@@ -120,3 +120,27 @@ void inOrder(TreeNode* root){
 * Skewed Tree : It is tree which is unbalanced. It will have all nodes either to left of root or right of root.
 * TC : O(n)
 * SC : O(n)
+
+
+Full Binary Tree :
+- It is a type of binary tree where all nodes have two or no children.
+
+Complete Binary Tree :
+- It is a type of binary tree where all internal completely filled and leaf nodes are filled from left to right.
+
+```
+Eg : 
+    1
+2  
+ 
+above tree is a complete binary tree but not the below one
+    1
+        2
+
+```
+
+Perfect Tree :
+It is type of binary tree where all internal have only two nodes and leaf nodes are at same level
+        1
+    2       3
+4       5 6     7
