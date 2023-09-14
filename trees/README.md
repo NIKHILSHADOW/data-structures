@@ -117,5 +117,6 @@ void inOrder(TreeNode* root){
     inOrder(root->right);
 }
 ```
-
-
+* Skewed Tree : It is tree which is unbalanced. It will have all nodes either to left of root or right of root.
+* TC : O(n)
+* SC : O(n)
