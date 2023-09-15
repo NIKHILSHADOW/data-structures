@@ -1,28 +1,7 @@
-class TreeNode{
-    TreeNode left;
-    int val;
-    TreeNode right;
-    public TreeNode(int val, TreeNode left, TreeNode right){
-        this.val=val;
-        this.left=left;
-        this.right=right;
-    }
-};
+package trees.java.recursive;
 
-
-
-
-Class preOrder{
-
-    public static void preorder(TreeNode root){
-        if(root == null)return ;
-        cout<<root.val<<" ";
-        preorder(root.left);
-        preorder(root.right);
-        return;
-    }
-
-    public static void main(String[] args){
+public class construct_tree {
+    public TreeNode constructTree(){
         TreeNode root = new TreeNode(1,null,null);
         root.left= new TreeNode(2,null,null);
         root.right = new TreeNode(3,null,null);
@@ -38,6 +17,7 @@ Class preOrder{
         root.right.left.right = new TreeNode(13,null,null);
         root.right.right.left = new TreeNode(14,null,null);
         root.right.right.right = new TreeNode(15,null,null);
-        preOrder(root);
+
+        return root;
     }
 }

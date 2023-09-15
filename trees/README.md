@@ -144,3 +144,4 @@ It is type of binary tree where all internal have only two nodes and leaf nodes 
         1
     2       3
 4       5 6     7
+here all internal nodes are having two nodes and leaf nodes are at same level.
