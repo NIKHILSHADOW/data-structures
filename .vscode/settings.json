@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.gradle": "java",
-        "new": "cpp"
-    }
+        "new": "cpp",
+        "preorder": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
